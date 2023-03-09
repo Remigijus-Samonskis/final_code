@@ -3,7 +3,7 @@ from art import art
 
 
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%d/%m/%Y %H:%M:%S')
-logging.info("This is simple guess game")
+logging.info("Lets play")
 class GuessGame:
     def __init__(self, questions: dict, options: list) -> None:
         self.questions = questions
